@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-LoginForm/static/css/main.f5336ed8.css",
+    "main.js": "/React-LoginForm/static/js/main.2f772007.js",
+    "index.html": "/React-LoginForm/index.html",
+    "main.f5336ed8.css.map": "/React-LoginForm/static/css/main.f5336ed8.css.map",
+    "main.2f772007.js.map": "/React-LoginForm/static/js/main.2f772007.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5336ed8.css",
+    "static/js/main.2f772007.js"
+  ]
+}
