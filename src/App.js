@@ -28,7 +28,7 @@ class App extends Component {
   };
 
   render() {
-    const { todos } = this.state;
+    // const { todos } = this.state;
     return (
       <>
         {/* <ColorPicker options={colorPickerOptions} /> */}
