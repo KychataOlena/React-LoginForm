@@ -12,30 +12,8 @@ import { LoginForm } from 'components/LoginForm/LoginForm';
 // ];
 
 class App extends Component {
-  state = {
-    todos: [
-      { id: 'id-1', text: 'Йобана русня', completed: 'false' },
-      { id: 'id-2', text: 'Йобана русня', completed: 'false' },
-      { id: 'id-3', text: 'Йобана русня', completed: 'false' },
-      { id: 'id-4', text: 'Йобана русня', completed: 'false' },
-    ],
-  };
-
-  deletedTodo = todoId => {
-    this.setState(prevState => ({
-      todos: prevState.todos.filter(todo => todo.id !== todoId),
-    }));
-  };
-
   render() {
-    // const { todos } = this.state;
-    return (
-      <>
-        {/* <ColorPicker options={colorPickerOptions} /> */}
-        {/* <TodoList todos={todos} onDeleteTodo={this.deletedTodo} /> */}
-        <LoginForm />
-      </>
-    );
+    return <LoginForm />;
   }
 }
 
